@@ -9,7 +9,7 @@
 		<title>信仰分享time</title>
 		
 		<!-- 新 Bootstrap4 核心 CSS 文件 -->
-		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">	 
+		<!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">-->	
 		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
 		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>	 
 		<!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
@@ -24,6 +24,7 @@
 		<!-- Demo style -->
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="./css/demo.css">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">	
 		
 		<meta name="description" content="jQuery timeline plugin, easily creates a timeline."/>
 		<meta name="keywords" content="timelinejs, timeline, timeline slider, milestone, topic:chronology, jquery timeline plugin"/>
@@ -33,10 +34,55 @@
 		<div class="row">-->
 			<!--<div class="col-sm-6 col-md-8 col-lg-10 col-xl-12">-->
 			<div class="section-list-box">
-	            <div class="timeline-container">
-					<div class="timeline timeline-1">
+	            <div class="timeline-container container-fluid">
+					<div class="timeline timeline-1 container-fluid">
 						
-						<div data-time="6.10">
+						<div data-time="5.17 受洗的契机">
+							<div class="row">
+							    <div class="col-sm-2 col-md-4 col-lg-5 col-xl-6">
+								    <div class="timeline-visual">
+								        <img src="img/faithshare/0517.jpg" alt="">
+								    </div>
+							    </div>
+							    <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
+								    <div class="timeline-detail pre-scrollable">
+								        <ul class="timeline-detail-list", id="May17"></ul>
+							        </div>
+								</div>
+						    </div>
+						</div>
+						
+						<div data-time="5.18 改变的习惯">
+							<div class="row">
+							    <div class="col-sm-2 col-md-4 col-lg-5 col-xl-6">
+								    <div class="timeline-visual">
+								        <img src="img/faithshare/0518.jpg" alt="">
+								    </div>
+							    </div>
+							    <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
+								    <div class="timeline-detail pre-scrollable">
+								        <ul class="timeline-detail-list", id="May18"></ul>
+							        </div>
+								</div>
+						    </div>
+						</div>
+						
+						<div data-time="5.19 喜欢的一首歌">
+							<div class="row">
+							    <div class="col-sm-2 col-md-4 col-lg-5 col-xl-6">
+								    <div class="timeline-visual">
+								        <img src="img/faithshare/0519.jpg" alt="">
+								    </div>
+							    </div>
+							    <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
+								    <div class="timeline-detail pre-scrollable">
+								        <ul class="timeline-detail-list", id="May19"></ul>
+							        </div>
+								</div>
+						    </div>
+						</div>
+						
+						<div data-time="6.10 灵修的得着">
 							<div class="row">
 							    <div class="col-sm-2 col-md-4 col-lg-5 col-xl-6">
 								    <div class="timeline-visual">
@@ -44,14 +90,14 @@
 								    </div>
 							    </div>
 							    <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
-								    <div class="timeline-detail">
+								    <div class="timeline-detail pre-scrollable">
 								        <ul class="timeline-detail-list", id="June10"></ul>
 							        </div>
 								</div>
 						    </div>
 						</div>
 						
-						<div data-time="6.17">
+						<div data-time="6.17 属灵小伙伴">
 						    <div class="row">
 							    <div class="col-sm-2 col-md-4 col-lg-5 col-xl-6">
 								    <div class="timeline-visual">
@@ -59,7 +105,7 @@
 								    </div>
 							    </div>
 							    <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6">
-								    <div class="timeline-detail">
+								    <div class="timeline-detail pre-scrollable">
 								        <ul class="timeline-detail-list", id="June17"></ul>
 									</div>
 								</div>
@@ -86,6 +132,10 @@
 			$(function(){
 				$('.timeline-1').Timeline();
 			});
+			
+//			$(function(){
+//				$('.timeline-1').Timeline({mode: 'vertical', itemClass: 'box-item'});
+//			});
 		</script>
 		
 		<script>
