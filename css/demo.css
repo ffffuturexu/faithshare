@@ -58,6 +58,11 @@ code {
   code .pun {
     color: #4A2AB2; }
 
+.container-fluid {
+	margin-top: -15px;
+	padding-left: 10px;
+	padding-right: 10px;}
+
 .header-wrapper {
   padding: 5rem 0; }
 
@@ -141,17 +146,17 @@ code {
 }
 
 .timeline-1 .timeline-item {
-  width: calc(100vw - 60px);
+  width: calc(100vw - 40px);
   max-width: 800px;
   height: 100%;
   background: #ddd;
   border: none; }
 
 .timeline-visual {
-  float: left;
   width: 60%;
-  margin-right: 3%;
-  line-height: 1; }
+  margin: 0 auto;
+  line-height: 1; 
+  padding: 4%;}
 .timeline-visual img {
     max-width: 100%; }
 
