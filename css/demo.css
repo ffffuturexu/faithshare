@@ -132,17 +132,18 @@ code {
 }*/
 
 .timeline-theme-1 {
-  width: 800px;
+  max-width: 800px;
   margin: 100px auto; }
 
 .timeline-1 .timeline-list {
-  /*width: 800px;*/
+  max-width: 800px;
   /*height: 350px;*/ 
 }
 
 .timeline-1 .timeline-item {
   width: calc(100vw - 60px);
-  /*height: 350px;*/
+  max-width: 800px;
+  height: 100%;
   background: #ddd;
   border: none; }
 
