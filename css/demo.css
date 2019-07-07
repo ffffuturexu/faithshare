@@ -17,7 +17,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #292b2c;
-  background: #ffffff; }
+  background-image: url(../img/faithshare/bg1-cross.jpg);
+	background-size: contain;
+}
 
 p {
   margin-bottom: 0.5rem; }
@@ -138,7 +140,7 @@ code {
   width: calc(100vw - 40px);
   max-width: 800px;
   height: 85%;
-  background: #ddd;
+  background: beige;
   border: none; }
 
 .timeline-visual {
