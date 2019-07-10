@@ -92,7 +92,7 @@ code {
 .section-list-box:not(:last-child) {
   border-bottom: 1px solid #dddddd;
   margin-top: 30px;
-  padding-bottom: 5rem; }
+  padding-bottom: 4.5rem; }
 
 .table {
   width: 100%;
