@@ -12,7 +12,7 @@ html {
 
 
 body {
-  font-family: "Lato", Arial,sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -141,7 +141,10 @@ code {
   max-width: 800px;
   height: 85%;
   background: beige;
-  border: none; }
+  border-top: 1.5px ridge #ddd;
+  border-bottom: 1.5px ridge #ddd;
+  border-left: none;
+  border-right: none; }
 
 .timeline-visual {
   width: 60%;
@@ -149,7 +152,9 @@ code {
   line-height: 1; 
   padding: 4%;}
 .timeline-visual img {
-    max-width: 100%; }
+    max-width: 100%;
+    border-style: double;
+}
 
 .timeline-detail {
   float: left;
@@ -201,22 +206,31 @@ code {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .timeline-visual {width: 60%;}
+    .timeline-visual {width: 100%;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .timeline-visual {width: 100%;}
+    body {position: relative;
+    			top: 120px;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .timeline-visual {width: 100%;}
+    body {position: relative;
+    			top: 120px;
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .timeline-visual {width: 100%;}
+    body {position: relative;
+    			top: 120px;
+    }
 }
 
 .pre-scrollable {
