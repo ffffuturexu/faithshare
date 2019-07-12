@@ -202,6 +202,7 @@ code {
 
 @media only screen and (max-width: 600px) {
     .timeline-visual {width: 60%;}
+    .section-list-box:not(:last-child) {padding-bottom: 0rem;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
