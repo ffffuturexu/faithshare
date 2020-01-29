@@ -30,8 +30,8 @@ p {
 
 code, pre {
   padding: 0.5rem;
-  background-color: #f6f8fa;
-  color: #4A2AB2;
+  /*background-color: #f6f8fa;*/
+  /*color: #4A2AB2;*/
   line-height: 1.7; }
 
 pre {
@@ -123,9 +123,10 @@ code {
   .footer-wrapper a {
     color: currentColor; }
 
-/*.timeline-container {
-	width: 100%;
-}*/
+.timeline-container {
+  /* width: 100%; */
+  margin-left: 250px;
+}
 
 .timeline-theme-1 {
   max-width: 800px;
